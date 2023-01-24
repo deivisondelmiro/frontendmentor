@@ -36,6 +36,7 @@ main {
 aside#image-product-background img {
     width: 275px;
     height: 100%;
+    object-fit: cover;
     border-radius: 8px 0 0 8px;
 }
 
