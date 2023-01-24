@@ -1,5 +1,6 @@
 :root {
   --cyan: hsl(179, 62%, 43%);
+  --cyan-light: hsl(179, 47%, 52%);
   --bright-yellow: hsl(71, 73%, 54%);
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
@@ -16,8 +17,7 @@
 
 html {
   height: 100%;
-  font-family: 'Karla', sans-serif;
-  font-size: 1rem;
+  font: 1rem 'Karla', sans-serif;
 }
 
 .container {
@@ -33,28 +33,28 @@ html {
   max-width: 630px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: white;
+  margin: 0 3.125rem;
+  background: #fff;
   border-radius: 8px;
-  margin: 0 20px;
 }
 
 .community {
   grid-column: 1 / -1;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--cyan);
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .info-text {
   display: block;
   font-weight: 700;
   color: var(--bright-yellow);
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .paragraph {
@@ -64,7 +64,7 @@ html {
 }
 
 .subscription {
-  padding: 40px;
+  padding: 2.5rem;
   background: var(--cyan);
   border-radius: 0 0 0 8px;
 }
@@ -72,21 +72,21 @@ html {
 .subtitle {
   font-size: 1.2rem;
   color: var(--light-gray);
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .value {
   display: flex;
   align-items: center;
   color: #62CFCF;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .value-decoration {
   font-size: 2rem;
   font-weight: 700;
-  color: white;
-  margin-right: 10px;
+  color: #fff;
+  margin-right: 0.625rem;
 }
 
 .subscription .paragraph {
@@ -94,15 +94,15 @@ html {
   font-size: .9rem;
   color: var(--light-gray);
   word-spacing: 1px;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .button {
   width: 100%;
   font-size: 1rem;
   font-weight: 700;
-  color: white;
-  padding: 15px 0;
+  color: #fff;
+  padding: 0.9375rem 0;
   background: var(--bright-yellow);
   border: none;
   border-radius: 5px;
@@ -117,8 +117,8 @@ html {
 }
 
 .why-us {
-  padding: 40px;
-  background:#4ABEBD;
+  padding: 2.5rem;
+  background: var(--cyan-light);
   border-radius: 0 0 8px 0;
 }
 
@@ -140,8 +140,8 @@ html {
 }
 
 .footer {
-  padding: 10px 0;
-  margin: 0 15px;
+  padding: 0.625rem 0;
+  margin: 0 0.9375rem;
 }
 
 .footer p {
@@ -155,18 +155,93 @@ html {
   color: var(--cyan);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 660px) {
+  html {
+    height: 100vh;
+  }
+  .container {
+    height: 100%;
+  }
   .container-item {
+    height: 100%;
+    max-width: 360px;
     grid-template-columns: 1fr;
-    margin: 20px 40px 0 40px;
+    margin: 2.5rem 2.5rem 0 2.5rem;
   }
   .community {
-    margin-top: 20px;
+    padding: 1.875rem;
+  }
+  .info-text {
+    margin-bottom: 1.25rem;
+  }
+  .paragraph {
+    line-height: 1.8;
+    text-align: left;
   }
   .subscription {
+    padding: 1.875rem;
     border-radius: 0;
   }
+  .subscription .paragraph {
+    font-size: 1rem;
+  }
+  .subtitle {
+    margin-bottom: 1.25rem;
+  }
   .why-us {
+    padding: 1.875rem;
     border-radius: 0 0 8px 8px;
+  }
+  .list-links {
+    gap: 5px;
+  }
+
+  .list-links a {
+    font-size: 1rem;
+  }
+  .footer {
+    margin: 0 3.125rem 0.625rem 3.125rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    font-size: 1.3rem;
+  }
+  .info-text,
+  .paragraph,
+  .subscription .paragraph {
+    font-size: .9rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .value-decoration {
+    font-size: 1.9rem;
+  }
+  .list-links a {
+    font-size: .8rem;
+  }
+  .footer p {
+    font-size: .7rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 1.1rem;
+  }
+  .paragraph {
+    font-size: .8rem;
+  }
+  .value-decoration {
+    font-size: 1.5rem;
+  }
+  .subscription .paragraph {
+    word-spacing: 0px;
+    line-height: 1.2;
+  }
+  .button {
+    font-size: .8rem;
   }
 }
