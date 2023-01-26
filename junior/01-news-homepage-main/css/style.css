@@ -1,0 +1,142 @@
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local(Inter), url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: var(--off-white);
+  font-family: 'Inter';
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 1100px;
+  /* background:hsl(5, 85%, 63%); */
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu a {
+  color: var(--dark-grayish-blue);
+  font-weight: 4 00;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+}
+
+.main-item-bg {
+  grid-column: 1 / 3;
+}
+
+p {
+  font-size: 15px;
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
+}
+
+.main-item-paragraph p {
+  line-height: 1.5;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 3.4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  grid-row: 2 / 3;
+}
+
+.main-item-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 2 / 3;
+  align-self: space-between;
+}
+
+.main-item-paragraph input{
+  width: fit-content;
+  background: var(--soft-red);
+  padding: 15px 35px;
+  color: var(--off-white);
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border: none;
+  font-family: 'Inter';
+  text-transform: uppercase;
+}
+
+.article {
+  background: var(--very-dark-blue);
+  padding: 25px 20px 10px 20px;
+  color: white;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article h2 {
+  font-size: 2.5rem;
+  color: var(--soft-orange);
+}
+
+.article h3 {
+  margin-bottom: 10px;
+}
+
+.article p {
+  line-height: 1.5;
+}
+
+.article-item {
+  padding: 30px 0;
+  border: 1px solid var(--dark-grayish-blue);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.article-item:last-child {
+  border-bottom: none;
+}
