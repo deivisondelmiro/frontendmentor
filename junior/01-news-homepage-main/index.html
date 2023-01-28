@@ -12,11 +12,12 @@
 </head>
 <body>
   <div class="container">
+    <div class="desfoque-page"></div>
     <header class="header">
       <div class="header-logo">
         <a href="./index.html"><img src="assets/images/logo.svg" alt="Logo com a letra W mais um ponto final" title="W."></a>
       </div>
-      <nav class="nav">
+      <nav class="header-nav">
         <ul class="nav-menu">
           <li>
             <a href="#" target="_self">Home</a>
@@ -35,17 +36,25 @@
           </li>
         </ul>
       </nav>
+      <div class="menu-button">
+        <img class="img-menu" src="assets/images/icon-menu.svg" alt="">
+      </div>
     </header>
 
     <main class="main">
       <div class="main-item-bg">
         <img src="assets/images/image-web-3-desktop.jpg" alt="">
       </div>
+      <h1 class="main-item-title">The Bright Future of Web 3.0?</h1>
+      <div class="main-item-paragraph">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <input type="button" value="Read More">
+      </div>
       <article class="article">
         <h2>New</h2>
         <div class="article-item">
           <a href="">
-            <h3>Hydrogen VS Electric</h3>
+            <h3>Hydrogen VS Electric Cars</h3>
             <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
           </a>
         </div>
@@ -62,12 +71,42 @@
           </a>
         </div>
       </article>
-      <h1 class="title">The Bright Future of Web 3.0?</h1>
-      <div class="main-item-paragraph">
-        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-        <input type="button" value="Read More">
-      </div>
     </main>
+
+    <section class="posts">
+      <div class="posts-item">
+        <div class="posts-item-img">
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="posts-item-texts">
+          <span>01</span>
+          <h2>Reviving Retro PCs</h2>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="posts-item">
+        <div class="posts-item-img">
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="posts-item-texts">
+          <span>02</span>
+          <h2>Top 10 Laptops of 2022</h2>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="posts-item">
+        <div class="posts-item-img">
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="posts-item-texts">
+          <span>03</span>
+          <h2>The Growth of Gaming</h2>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
   </div>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
