@@ -3,6 +3,8 @@
 Abaixo há o desenvolvemento final de aplicações a partir de templates/design que foram disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/), que tem o intuito da criação e aprendizado sobre esses designs a quem se interessar. Desenvolvi alguns para o aprimorarmento de meus conhecimentos em tecnologias do Front End.
 
 ## Projetos
+  > Iniciante
+
   Perfume Gabrielle Essence Eau De Parfum - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/01-product-preview-card-component/))
   
   QR Code - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/02-qr-code-component/))
@@ -24,6 +26,10 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
   Intro Form - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/11-intro-component-with-signup-form-master))
 
   Single Price - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/12-single-price-grid-component))
+
+  > Junior
+
+  News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior\01-news-homepage-main))
 
 ## Contato
 
