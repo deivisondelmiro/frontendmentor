@@ -8,9 +8,9 @@ function showMenu() {
     const buttonActive = buttonMenu.classList.contains('active')
 
     if (buttonActive) {
-      imgMenu.setAttribute('src', '../assets/images/icon-menu-close.svg')
+      imgMenu.setAttribute('src', './assets/images/icon-menu-close.svg')
     } else {
-      imgMenu.setAttribute('src', '../assets/images/icon-menu.svg')
+      imgMenu.setAttribute('src', './assets/images/icon-menu.svg')
     }
   }
   activeButtonMenu()

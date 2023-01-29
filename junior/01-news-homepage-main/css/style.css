@@ -199,9 +199,21 @@ p {
   padding: 0 0 0 20px;
 }
 
+.footer p {
+  font-size: .8rem;
+  text-align: center;
+  padding: 15px 0;
+}
+.footer p a {
+  transition: .3s;
+}
+
+.footer p a:hover {
+  color: var(--very-dark-blue);
+}
+
 @media (max-width: 1120px) {
-  .header,
-  .main-item-title {
+  .header .main-item-title {
     font-size: 3rem;
   }
 }
@@ -223,9 +235,6 @@ p {
   }
   .header-nav .nav-menu {
     gap: 15px;
-  }
-  .nav-menu {
-    gap: 20px;
   }
   .main {
     grid-template-columns: 1fr 1fr;
@@ -302,17 +311,17 @@ p {
     display: none;
   }
   .header-nav .nav-menu.active {
-    display: flex;
-    height: 100vh;
-    padding-top: 150px;
-    flex-direction: column;
-    position: fixed;
-    gap: 20px;
     width: 65%;
-    background: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 150px;
+    padding-left: 20px;
+    position: fixed;
     top: 0;
     right: 0;
-    padding-left: 20px;
+    background: rgb(255, 255, 255);
     z-index: 1;
   }
   .nav-menu li a {
@@ -322,19 +331,18 @@ p {
   }
   .menu-button {
     display: block;
-    z-index: 1;
     position: absolute;
     right: 0;
-    /* margin-right: 50px; */
     cursor: pointer;
+    z-index: 1;
   }
   .main {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .main-item-bg img {
-    height: 300px;
+  .main-item-bg {
+    height: auto;
   }
   .main-item-title {
     line-height: 1.1;
