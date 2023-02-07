@@ -177,6 +177,7 @@ p {
 }
 
 .posts-item-texts span {
+  flex-grow: 2;
   display: block;
   font-size: 2rem;
   font-weight: 700;
