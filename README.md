@@ -29,7 +29,6 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
 
   Huddle Landing Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/13-huddle-landing-page))
 
-
   > Junior
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
