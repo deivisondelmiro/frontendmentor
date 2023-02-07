@@ -27,7 +27,7 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
 
   Single Price - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/12-single-price-grid-component))
 
-  Huddle-Landing Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/13-huddle-landing-page))
+  Huddle Landing Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/13-huddle-landing-page))
 
 
   > Junior
