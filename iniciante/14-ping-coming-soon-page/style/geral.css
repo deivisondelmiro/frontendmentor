@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+:root {
+  --blue: hsl(223, 87%, 63%);
+  --blue-dark: hsl(223, 62%, 55%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+body {
+  width: 100vw;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 800px;
+}
+
+.img-logo img {
+  max-width: 70px;
+  margin: 50px 0 20px 0;
+}
+
+#title {
+  font-size: 2.5em;
+  font-weight: 300;
+  color: var(--gray);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#title .title-visual {
+  font-weight: 700;
+  color:var(--very-dark-blue);
+}
+
+#paragraph {
+  font-weight: 300;
+  color: var(--very-dark-blue);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: none;
+}
+
+form input[type=email] {
+  width: 350px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: .9em;
+  margin-right: 10px;
+  padding: 12px 25px;
+  border: 1px solid var(--gray);
+  border-radius: 25px;
+}
+
+form button {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: .8em;
+  font-weight: 600;
+  color: white;
+  padding: 15px 55px;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+form button:hover {
+  background-color: var(--blue-dark);
+}
+
+.footer .midia-social {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .midia-social li {
+  display: flex;
+  padding: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer .midia-social li .social {
+  width: 30px;
+  color: var(--blue);
+  transition: color .3s;
+}
+
+.footer .midia-social li .social.facebook,
+.footer .midia-social li .social.twitter {
+  fill: currentColor;
+  stroke: none;
+}
+
+.footer .midia-social li .social:hover {
+  color: var(--blue-dark);
+}
+
+.footer p {
+  font-size: .75em;
+  color: var(--gray);
+  text-align: center;
+  margin: 5px 10px;
+}
+
+.footer a {
+  transition: color .3s;
+}
+
+.footer a:hover {
+  color: var(--blue-dark);
+}
