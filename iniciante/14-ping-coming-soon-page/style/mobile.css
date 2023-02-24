@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media (max-width: 700px) {
+  .container {
+    width: 85%;
+  }
+  .main {
+    margin-bottom: 0;
+  }
+  #title {
+    font-size: 2rem;
+  }
+  #paragraph {
+    font-size: .9em;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  form input[type="email"] {
+    max-width: 100%;
+    width: 100%;
+  }
+  .error {
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .error.active {
+    width: 270px;
+    text-align: center;
+  }
+  form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #title {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+  }
+  .img-bg {
+    margin-bottom: 50px;
+  }
+}
