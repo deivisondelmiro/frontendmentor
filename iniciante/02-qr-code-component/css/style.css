@@ -74,7 +74,7 @@ footer p a:hover {
   color: var(--color-quarta);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .container {
     max-width: 290px;
     margin: 0 1rem;
@@ -83,3 +83,13 @@ footer p a:hover {
   .content-main p {
     padding: 0 .9rem .9rem .9rem;
   }
+}
+
+@media (max-height: 550px) {
+  body {
+    height: 100%;
+  }
+  .container {
+    margin-top: 20px;
+  }
+}
