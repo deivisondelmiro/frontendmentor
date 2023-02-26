@@ -17,23 +17,28 @@
     --ancora-color-hover: hsl(212, 21%, 14%);
 }
 
-body {
-    width: 100vw;
+html, body {
     height: 100vh;
+}
+
+body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: var(--background-body-color);
 }
 
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
 main {
-    width: 570px;
+    max-width: 570px;
     height: 420px;
     display: flex;
 }
 
-aside#image-product-background img {
+#image-product-background img {
     width: 275px;
     height: 100%;
     object-fit: cover;
@@ -117,12 +122,11 @@ button#buttonAddToCart p {
 }
 
 footer {
-    position: relative;
-    top: 90px;
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     color: var(--text-principal-color);
-    padding: 10px 0;
+    text-align: center;
+    padding: 15px 0;
 }
 
 footer a {
@@ -135,38 +139,50 @@ footer a:hover {
     color: var(--ancora-color-hover);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     body {
-        height: 80vh;
+        padding-top: 50px;
     }
+}
 
+@media (max-width: 600px) {
+    html {
+        height: 0px;
+    }
+    body {
+        justify-content: center;
+        margin-top: 20px;
+        position: relative;
+    }
+    .container {
+        height: 100%;
+    }
     main {
-        width: 76vw;
-        height: 68vh;
+        max-width: 320px;
         flex-direction: column;
         justify-items: center;
         align-items: center;
+        margin: 0 auto;
+        height: 100%;
     }
 
-    aside#image-product-background {
-        width: 90%;
-        height: 40vh;
+    #image-product-background {
+        width: 100%;
     }
 
-    aside#image-product-background img {
+    #image-product-background img {
         width: 100%;
         border-radius: 8px 8px 0px 0;
     }
 
     section#informations {
-        width: 90%;
-        height: 100vh;
+        width: 100%;
         border-radius: 0 0 8px 8px;
+        padding-right: 30px;
     }
 
     section#informations p#firsTitle {
         font-size: 12px;
-
     }
 
     section#informations h1#principalTitle {
@@ -174,14 +190,15 @@ footer a:hover {
     }
 
     button#buttonAddToCart {
-        width: 90%;
+        width: 100%;
         margin: 0;
     }
 
     footer {
-        top: 185px;
+        position: absolute;
+        bottom: -50px;
     }
-    
+
     footer p {
         margin-bottom: 5px;
     }
