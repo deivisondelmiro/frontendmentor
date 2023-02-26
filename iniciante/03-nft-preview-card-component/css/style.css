@@ -135,3 +135,9 @@ footer p {
 .link-hover:hover, main #profile #profile-link:hover {
   color: var(--color-segunda);
 }
+
+@media (max-height: 550px) {
+  body {
+    height: 100%;
+  }
+}
