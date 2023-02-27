@@ -245,3 +245,15 @@ html {
     font-size: .8rem;
   }
 }
+
+@media (max-height: 550px) {
+  .container {
+    height: 100%;
+  }
+  .container-item {
+    margin-top: 25px;
+  }
+  .footer {
+    padding: 1rem;
+  }
+}
