@@ -247,3 +247,12 @@ footer p a:hover {
     gap: 10px;
   }
 }
+
+@media (max-height: 550px) {
+  body {
+    height: 100%;
+  }
+  .container {
+    margin-top: 25px;
+  }
+}
