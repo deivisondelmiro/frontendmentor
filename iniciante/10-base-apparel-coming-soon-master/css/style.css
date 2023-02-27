@@ -243,3 +243,17 @@ body {
     text-align: initial;
   }
 }
+
+@media (max-height: 550px) {
+  .container {
+    height: inherit;
+  }
+  .logo-img {
+    padding-top: 20px;
+  }
+  .footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: inherit;
+  }
+}
