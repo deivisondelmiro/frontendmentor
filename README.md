@@ -31,6 +31,8 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
 
   PING Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/14-ping-coming-soon-page))
 
+  Results Summary - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/15-results-summary))
+
   > Junior
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
