@@ -37,6 +37,8 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
 
+  Advice Generator App - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/02-advice-generator-app))
+
 ## Contato
 
 E-mail: deivisondelmirodasilva@gmail.com

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  text-decoration: none;
+}
+
+a {
+  color: initial;
+}
+
+:root {
+  --textColor: hsl(193, 38%, 86%);
+  --bgTitleColor: hsl(150, 100%, 66%);
+
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --backgroudContainer: hsl(217, 19%, 24%);
+  --backgroundColor: hsl(218, 23%, 16%);
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: 'Manrope', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerAdvice {
+  position: relative;
+  width: 26.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  color: var(--textColor);
+  background-color: var(--backgroudContainer);
+  border-radius: 15px;
+}
+
+#titleAdviceNumber {
+  font-size: .8rem;
+  color: var(--bgTitleColor);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 25px;
+}
+
+.paragraphAdvice {
+  font-size: 1.75rem;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.iconDivision {
+  padding-bottom: 25px;
+}
+
+.containerDice {
+  width: 55px;
+  height: 55px;
+  background-color: var(--bgTitleColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+}
+
+.containerDice:hover {
+  box-shadow: 0px 0px 20px 2px var(--bgTitleColor);
+}
+
+#iconDice {
+  display: block;
+  background-color: var(--bgTitleColor);
+  box-shadow: 20px 20px 20px;
+}
+
+.footer {
+  font-weight: 300;
+  font-size: .7rem;
+  letter-spacing: .5px;
+  color: var(--textColor);
+  padding-top: 50px;
+}
+
+.footer a {
+  color: var(--textColor);
+}
+
+.footer a:hover {
+  color: var(--bgTitleColor);
+}
+
+@media (max-width: 550px) {
+  .containerAdvice {
+    width: 15.375rem;
+  }
+  .iconDivision {
+    padding-bottom: 10px;
+  }
+  .paragraphAdvice {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer {
+    text-align: center;
+  }
+}

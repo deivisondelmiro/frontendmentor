@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap" rel="stylesheet">
+  <title>Advice Generator App</title>
+</head>
+<body>
+  <div class="container">
+    <main class="containerAdvice">
+      <h1 id="titleAdviceNumber">Advice #<span id="adviceNumber">000</span></h1>
+      <p class="paragraphAdvice">Click on the dice below, and receive a random advice</p>
+      <picture>
+        <source media="(max-width: 550px)" srcset="./images/pattern-divider-mobile.svg">
+        <img src="./images/pattern-divider-desktop.svg" alt="Division image." class="iconDivision">
+      </picture>
+      <div class="containerDice">
+        <img src="./images/icon-dice.svg" alt="Icon of advice generator." class="iconDice">
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/deivisondelmiro" target="_blank">Deivison Delmiro</a>.</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </div>
+</body>
+</html>
