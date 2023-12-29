@@ -35,7 +35,6 @@ Abaixo há o desenvolvemento final de aplicações a partir de templates/design 
 
   Blog Card - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/16-blog-preview-card-main))
 
-
   > Junior
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
