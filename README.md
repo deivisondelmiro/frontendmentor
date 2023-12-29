@@ -1,6 +1,10 @@
-# Frontend Mentor - [🔗](https://www.frontendmentor.io/)
+<h1 align="center">Frontend Mentor</h1>
 
-Abaixo há o desenvolvemento final de aplicações a partir de templates/design que foram disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/), que tem o intuito da criação e aprendizado sobre esses designs a quem se interessar. Desenvolvi alguns para o aprimorarmento de meus conhecimentos em tecnologias do Front End.
+Desenvolvemento final de aplicações a partir de templates/design disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/), que tem o intuito da criação e aprendizado sobre esses designs a quem se interessar. Desenvolvi alguns para o aprimoramento de meus conhecimentos em tecnologias do Front End.
+
+## Screenshots
+
+![Blank 5 Grids Collage (2)](https://github.com/deivisondelmiro/frontendmentor/assets/98898754/92137032-3c3a-4b43-b905-dbd3c824bd0d)
 
 ## Projetos
   > Iniciante
