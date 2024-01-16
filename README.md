@@ -39,6 +39,8 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 
   Blog Card - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/16-blog-preview-card-main))
 
+  Interactive Rating - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/17-interactive-rating-component))
+
   > Junior
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))

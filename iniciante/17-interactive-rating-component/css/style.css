@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  background-color: var(--very-dark-blue);
+}
+
+.container {
+  width: 385px;
+  height: 420px;
+  margin: auto;
+  padding: 30px;
+  background-color: var(--dark-blue);
+  border-radius: 25px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#imgStar {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--very-dark-blue);
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--medium-grey);
+  text-align: left;
+  line-height: 25px;
+}
+
+.listNumbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.listNumbers li {
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.listNumbers li.patternLi {
+  color: var(--medium-grey);
+  background-color: var(--very-dark-blue);
+}
+
+.listNumbers li:hover {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.listNumbers li.active {
+  background-color: var(--medium-grey);
+  color:var(--white);
+}
+
+#btnSubmit {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 12px;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#btnSubmit:active {
+  color: var(--orange);
+  background-color: var(--white);
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  color: var(--light-grey);
+  margin: 20px 0 0 0;
+  padding: 20px;
+}
+
+.footer a:hover {
+  color: var(--medium-grey);
+}
+
+/* Second Screen */
+
+.containerSecondScreen {
+  display: none;
+  text-align: center;
+}
+
+.containerItemSelected {
+  width: fit-content;
+  margin: auto;
+  padding: 10px 15px;
+  color: var(--orange);
+  background-color: var(--very-dark-blue);
+  border-radius: 25px;
+}
+
+.paragraphSecondScreen {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 355px;
+    height: 410px;
+  }
+  main {
+    gap: 5px;
+  }
+  #title {
+    font-size: 1.5rem;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+  .listNumbers {
+    margin: 15px 0;
+  }
+  #btnSubmit {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+}
