@@ -41,6 +41,8 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 
   Interactive Rating - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/17-interactive-rating-component))
 
+  FAQ Accordion - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/18-faq-accordion-main))
+
   > Junior
 
   News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
