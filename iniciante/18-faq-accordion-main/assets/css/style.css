@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-pink: hsl(275, 100%, 97%);
+  --grayish-purple: hsl(292, 16%, 49%);
+  --dark-purple: hsl(292, 42%, 14%);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  background: var(--light-pink) url("../images/background-pattern-desktop.svg") no-repeat;
+  background-position-y: -120px;
+}
+
+.container {
+  width: 600px;
+  padding: 35px 35px 20px 35px;
+  border-radius: 15px;
+  background-color: var(--white);
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#title, .subtitle {
+  color: var(--dark-purple);
+}
+
+.containerQuestion::after {
+  display: block;
+  content: '';
+  height: 1px;
+  background-color: var(--light-pink);
+}
+
+.containerQuestion:last-child::after {
+  display: none;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 20px 50px 20px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  color: rgb(174, 0, 255);
+}
+
+.subtitle::after {
+  display: block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon-plus.svg") no-repeat;
+  position: absolute;
+  right: 0;
+}
+
+.subtitle.active::after {
+  background-image: url("../images/icon-minus.svg");
+}
+
+.paragraph {
+  display: none;
+  color: var(--grayish-purple);
+  text-align: left;
+  line-height: 25px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.activeParagraph {
+  display: block;
+  animation: showParagraph 2s forwards;
+}
+
+.disabledParagraph {
+  display: none;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  color: var(--grayish-purple);
+  margin: 20px 0 0 0;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer a:hover {
+  color: var(--dark-purple);
+}
+
+@keyframes showParagraph {
+  0% {
+    max-height: 0;
+    opacity: 0.1;
+  }
+  50% {
+    max-height: 500px;
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 360px;
+    padding: 25px 25px 5px 25px;
+  }
+  header {
+    margin-bottom: 5px;
+  }
+  .imgStar {
+    width: 25px;
+  }
+  #title {
+    font-size: 2.5rem;
+  }
+  .paragraph {
+    margin-right: 0;
+  }
+}
