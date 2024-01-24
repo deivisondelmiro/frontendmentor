@@ -52,5 +52,5 @@ function shownIconMinus(indexClickItem) {
   })
 }
 
-showParagraphs(0)
-shownIconMinus(subtitles[0])
+showParagraphs(0);
+shownIconMinus(0);
