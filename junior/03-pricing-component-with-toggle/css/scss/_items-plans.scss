@@ -1,0 +1,92 @@
+.containerPrices {
+  height: 380px;
+  display: flex;
+  align-items: center;
+  @include device(mobile) {
+    height: auto;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.item-plan {
+  width: 230px;
+  padding: 25px;
+  text-align: center;
+  background: $decima-cor;
+  @include device(mobile) {
+    border-radius: 8px !important;
+  }
+  @include box-shadow(0px 0px 15px rgba(0, 0, 0, 0.116));
+  h2 {
+    color: $quinta-cor;
+    margin: 0 0 20px 0;
+  }
+  span.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    color: $quarta-cor;
+    @include fonte(4);
+    .cifrao {
+      @include fonte(.6);
+    }
+  }
+  li {
+    color: $quinta-cor;
+    &::before, &:nth-child(3):after {
+      @include linhasStyle();
+    }
+  }
+  a {
+    display: block;
+    max-width: 100%;
+    margin-top: 30px;
+    padding: 12px;
+    color: $decima-cor;
+    text-transform: uppercase;
+    background: $segunda-cor;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: all .2s;
+    &:hover {
+      background: transparent;
+      color: $terceira-cor;
+      border: 1px solid $terceira-cor;
+    }
+  }
+}
+
+.firstPlan {
+  border-radius: 10px 0 0 10px
+}
+
+.secondPlan {
+  padding: 45px 20px;
+  background: $primeira-cor;
+  border-radius: 10px;
+  @include device(mobile) {
+    padding: 25px;
+  }
+  h2, span.price, li {
+    color: $decima-cor;
+  }
+  li::before, li:nth-child(3):after {
+    background: $nona-cor;
+  }
+  a {
+    background: $decima-cor;
+    color: $terceira-cor;
+    &:hover {
+      color: $decima-cor;
+      background: transparent;
+      border-color: $decima-cor;
+    }
+  }
+}
+
+.thirdPlan {
+  border-radius: 0 10px 10px 0;
+}

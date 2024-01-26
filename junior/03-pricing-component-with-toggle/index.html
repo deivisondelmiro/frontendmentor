@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
+  <title>Pricing component with toggle</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Our Pricing</h1>
+      <div class="containerChoice">
+        <span class="choiceItem">Annualy</span>
+        <div class="containerButton">
+          <span class="buttonCircle"></span>
+        </div>
+        <span class="choiceItem">Monthly</span>
+      </div>
+    </header>
+
+    <section class="containerPrices">
+      <section class="item-plan firstPlan">
+        <h2 class="priceBasic">Basic</h2>
+        <span class="price"><span class="cifrao">$</span> <span class="priceNumber">19.99</span></span>
+        <ul>
+          <li><span class="numberGBStorage">500</span> GB Storage</li>
+          <li><span class="numberUsers">2</span> Users Allowed</li>
+          <li>Send up to <span class="numberGBSendUp">3</span> GB</li>
+        </ul>
+        <a href="#" class="buttonLearnMore">Learn More</a>
+      </section>
+
+      <section class="item-plan secondPlan">
+        <h2 class="priceBasic">Professional</h2>
+        <span class="price"><span class="cifrao">$</span> <span class="priceNumber">24.99</span></span>
+        <ul>
+          <li><span class="numberGBStorage">1</span> TB Storage</li>
+          <li><span class="numberUsers">5</span> Users Allowed</li>
+          <li>Send up to <span class="numberGBSendUp">10</span> GB</li>
+        </ul>
+        <a href="#" class="buttonLearnMore">Learn More</a>
+      </section>
+
+      <section class="item-plan thirdPlan">
+        <h2 class="priceBasic">Master</h2>
+        <span class="price"><span class="cifrao">$</span> <span class="priceNumber">39.99</span></span>
+        <ul>
+          <li><span class="numberGBStorage">2</span> TB Storage</li>
+          <li><span class="numberUsers">10</span> Users Allowed</li>
+          <li>Send up to <span class="numberGBSendUp">20</span> GB</li>
+        </ul>
+        <a href="#" class="buttonLearnMore">Learn More</a>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/deivisondelmiro" target="_blank">Deivison Delmiro</a>.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+header {
+  margin-bottom: 50px;
+  h1 {
+    @include fonte(1.5);
+    text-align: center;
+    color: $quinta-cor;
+    margin: 40px 0 30px 0;
+  }
+  .containerChoice {
+    display: flex;
+    align-items: center;
+    .choiceItem {
+      display: inline-block;
+      color: $setima-cor;
+    }
+    .containerButton {
+      height: 30px;
+      width: 50px;
+      margin: 0 25px;
+      padding: 5px 5px 0 5px;
+      background: $segunda-cor;
+      border-radius: 25px;
+      cursor: pointer;
+      span {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: $decima-cor;
+        transition: transform .3s ease;
+      }
+    }
+  }
+}
+
+.buttonCircleActive {
+  transform: translateX(100%);
+}

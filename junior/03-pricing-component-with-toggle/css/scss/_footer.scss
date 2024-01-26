@@ -1,0 +1,14 @@
+footer {
+  display: block;
+  @include fonte(.7);
+  text-align: center;
+  color: $quinta-cor;
+  margin-top: 40px;
+  bottom: 0;
+  @include device(mobile) {
+    margin: 20px;
+  }
+  a:hover {
+    color: $terceira-cor;
+  }
+}

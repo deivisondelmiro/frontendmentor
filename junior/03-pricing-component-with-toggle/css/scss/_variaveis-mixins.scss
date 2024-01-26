@@ -1,0 +1,47 @@
+// Cores
+$primeira-cor: linear-gradient(rgb(163, 168, 240), rgb(105, 111, 221));
+$segunda-cor: linear-gradient(to right,rgb(163, 168, 240), rgb(105, 111, 221));
+$terceira-cor: rgb(105, 111, 221);
+$quarta-cor: hsl(232, 13%, 33%);
+$quinta-cor: hsl(233, 13%, 49%);
+$sexta-cor: hsla(234, 14%, 74%, 0.432);
+$setima-cor: hsl(234, 14%, 74%);
+$oitava-cor: hsl(240, 78%, 98%);
+$nona-cor: hsla(240, 80%, 98%, 0.397);
+$decima-cor: hsl(0, 0%, 100%);
+
+// Fonte
+$fonte: 'Montserrat', sans-serif;
+
+@mixin fonte($tamanho) {
+  font-size: $tamanho + em;
+  font-weight: 700;
+}
+
+// Sombra
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+// Tamanho das Telas
+$desktop-device: 1440px;
+$mobile-device: 850px;
+
+@mixin device($type) {
+  @if $type == mobile {
+    @media screen and (max-width: $mobile-device) {
+      @content;
+    }
+  }
+}
+
+@mixin linhasStyle() {
+  margin: 15px 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: $sexta-cor;
+}

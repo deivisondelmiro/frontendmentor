@@ -9,45 +9,47 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 ## Projetos
   > Iniciante
 
-  Perfume Gabrielle Essence Eau De Parfum - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/01-product-preview-card-component/))
+  [Perfume Gabrielle Essence Eau De Parfum](https://deivisondelmiro.github.io/frontendmentor/iniciante/01-product-preview-card-component/)
   
-  QR Code - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/02-qr-code-component/))
+  [QR Code](https://deivisondelmiro.github.io/frontendmentor/iniciante/02-qr-code-component/)
 
-  NFT Preview - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/03-nft-preview-card-component/))
+  [NFT Preview](https://deivisondelmiro.github.io/frontendmentor/iniciante/03-nft-preview-card-component/)
 
-  Order Summar - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/04-order-summary-component/))
+  [Order Summar](https://deivisondelmiro.github.io/frontendmentor/iniciante/04-order-summary-component/)
 
-  Stats - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/05-stats-preview-card-component))
+  [Stats](https://deivisondelmiro.github.io/frontendmentor/iniciante/05-stats-preview-card-component)
 
-  3 Column Preview - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/06-3-column-preview-card-component))
+  [3 Column Preview](https://deivisondelmiro.github.io/frontendmentor/iniciante/06-3-column-preview-card-component)
 
-  Profile Card - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/07-profile-card-component))
+  [Profile Card](https://deivisondelmiro.github.io/frontendmentor/iniciante/07-profile-card-component)
 
-  Article Preview - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/09-article-preview-component-master))
+  [Article Preview](https://deivisondelmiro.github.io/frontendmentor/iniciante/09-article-preview-component-master)
 
-  Base Apparel - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/10-base-apparel-coming-soon-master))
+  [Base Apparel](https://deivisondelmiro.github.io/frontendmentor/iniciante/10-base-apparel-coming-soon-master)
 
-  Intro Form - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/11-intro-component-with-signup-form-master))
+  [Intro Form](https://deivisondelmiro.github.io/frontendmentor/iniciante/11-intro-component-with-signup-form-master)
 
-  Single Price - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/12-single-price-grid-component))
+  [Single Price](https://deivisondelmiro.github.io/frontendmentor/iniciante/12-single-price-grid-component)
 
-  Huddle Landing Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/13-huddle-landing-page))
+  [Huddle Landing Page](https://deivisondelmiro.github.io/frontendmentor/iniciante/13-huddle-landing-page)
 
-  PING Page - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/14-ping-coming-soon-page))
+  [PING Page](https://deivisondelmiro.github.io/frontendmentor/iniciante/14-ping-coming-soon-page)
 
-  Results Summary - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/15-results-summary))
+  [Results Summary](https://deivisondelmiro.github.io/frontendmentor/iniciante/15-results-summary)
 
-  Blog Card - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/16-blog-preview-card-main))
+  [Blog Card](https://deivisondelmiro.github.io/frontendmentor/iniciante/16-blog-preview-card-main)
 
-  Interactive Rating - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/17-interactive-rating-component))
+  [Interactive Rating](https://deivisondelmiro.github.io/frontendmentor/iniciante/17-interactive-rating-component)
 
-  FAQ Accordion - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/iniciante/18-faq-accordion-main))
+  [FAQ Accordion](https://deivisondelmiro.github.io/frontendmentor/iniciante/18-faq-accordion-main)
 
   > Junior
 
-  News Homepage - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main))
+  [News Homepage](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main)
 
-  Advice Generator App - ([Clique aqui](https://deivisondelmiro.github.io/frontendmentor/junior/02-advice-generator-app))
+  [Advice Generator App](https://deivisondelmiro.github.io/frontendmentor/junior/02-advice-generator-app)
+
+  [Pricing Component](https://deivisondelmiro.github.io/frontendmentor/junior/03-pricing-component-with-toggle)
 
 ## Contato
 
