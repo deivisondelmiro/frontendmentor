@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font;
+  font-size: 0.875em;
+  color: $second-color;
+  background: $fifth-color;
+}
+
+.container {
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  background: $fourth-color;
+  border-radius: 10px;
+}

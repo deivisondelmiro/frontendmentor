@@ -1,0 +1,11 @@
+footer {
+  font-size: .8em;
+  text-align: center;
+  padding-top: 10px;
+  a {
+    color: $second-color;
+    &:hover {
+      color: $first-color;
+    }
+  }
+}

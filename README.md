@@ -43,6 +43,8 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 
   [FAQ Accordion](https://deivisondelmiro.github.io/frontendmentor/iniciante/18-faq-accordion-main)
 
+  [Social Links](https://deivisondelmiro.github.io/frontendmentor/iniciante/19-social-links-profile-main)
+
   > Junior
 
   [News Homepage](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main)
