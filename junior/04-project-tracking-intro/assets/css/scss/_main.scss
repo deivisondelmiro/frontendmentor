@@ -1,0 +1,84 @@
+main {
+  display: flex;
+  @include device(mobile) {
+    padding: 0 30px;
+  }
+  .texts {
+    width: 512px;
+    @include device(mobile) {
+      margin-top: 330px;
+    }
+    .topics {
+      margin-bottom: 20px;
+      span {
+        display: inline-block;
+        color: $fourth-color;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+      }
+      .new {
+        margin-right: 10px;
+        padding: 5px 10px;
+        font-weight: 700;
+        color: $sixth-color;
+        border-radius: 20px;
+        background: $second-color;
+      }
+    }
+    h1 {
+      font-size: 3em;
+      font-weight: 700;
+      color: $second-color;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+    p {
+      line-height: 23px;
+      color: $third-color;
+      margin-bottom: 50px;
+    }
+    div {
+      button {
+        font-weight: 700;
+        color: $sixth-color;
+        text-transform: uppercase;
+        margin-right: 20px;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        background: $first-color;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover {
+          background: $first-color-hover;
+        }
+      }
+      span {
+        color: $fourth-color;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+    .container-button{
+      button {
+        margin-right: 5px;
+      }
+      span {
+        @include device(mobile) {
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+  .img-bg-home {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    background: url("../../assets/images/illustration-devices.svg") 0 0 no-repeat;
+    @include device(mobile) {
+      width: 500px;
+      background-size: contain;
+    }
+  }
+}

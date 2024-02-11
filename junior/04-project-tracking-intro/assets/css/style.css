@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: white;
+  position: relative;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+}
+
+body::after {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  content: "";
+  width: 700px;
+  max-width: 1440px;
+  height: 350px;
+  border-bottom-left-radius: 50px;
+  background: #eef3f6;
+}
+
+@media screen and (max-width: 1100px) {
+  body::after {
+    width: 250px;
+    height: 420px;
+  }
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  max-width: 1024px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 80px 0;
+}
+
+@media screen and (max-width: 1100px) {
+  header {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+}
+
+header .menu-header {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  header .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header .menuIcon {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background: url("../../assets/images/icon-hamburger.svg") 0 0 no-repeat;
+    cursor: pointer;
+    transition: all .1s;
+  }
+  header .menuIcon.active {
+    background: url("../../assets/images/icon-close.svg") 0 0 no-repeat;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header nav {
+    position: absolute;
+  }
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+  header nav ul {
+    display: none;
+    -webkit-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.24);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.24);
+  }
+  header nav ul.active {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    top: 50px;
+    z-index: 100;
+  }
+}
+
+header nav ul li {
+  font-weight: 700;
+  color: #242942;
+  text-transform: uppercase;
+}
+
+header nav ul li:hover {
+  text-decoration: underline 2px;
+}
+
+header nav ul .li-circle-header {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a0a1ac;
+}
+
+@media screen and (max-width: 1100px) {
+  header nav ul .li-circle-header {
+    width: 100%;
+    height: 2px;
+    background-color: #eef3f6;
+  }
+}
+
+header nav ul .li-login {
+  color: #a0a1ac;
+  transition: color .3s;
+}
+
+header nav ul .li-login:hover {
+  color: #5b5f71;
+}
+
+main {
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  main {
+    padding: 0 30px;
+  }
+}
+
+main .texts {
+  width: 512px;
+}
+
+@media screen and (max-width: 1100px) {
+  main .texts {
+    margin-top: 330px;
+  }
+}
+
+main .texts .topics {
+  margin-bottom: 20px;
+}
+
+main .texts .topics span {
+  display: inline-block;
+  color: #a0a1ac;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+main .texts .topics .new {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-weight: 700;
+  color: white;
+  border-radius: 20px;
+  background: #242942;
+}
+
+main .texts h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #242942;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+main .texts p {
+  line-height: 23px;
+  color: #5b5f71;
+  margin-bottom: 50px;
+}
+
+main .texts div button {
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 20px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background: #ff5c5c;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+main .texts div button:hover {
+  background: #ff4242;
+}
+
+main .texts div span {
+  color: #a0a1ac;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+main .texts .container-button button {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  main .texts .container-button span {
+    letter-spacing: 1px;
+  }
+}
+
+main .img-bg-home {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  background: url("../../assets/images/illustration-devices.svg") 0 0 no-repeat;
+}
+
+@media screen and (max-width: 1100px) {
+  main .img-bg-home {
+    width: 500px;
+    background-size: contain;
+  }
+}
+
+footer {
+  text-align: center;
+  margin: 150px 0;
+  padding: 15px 0;
+}
+
+footer a:hover {
+  margin: 100px 0;
+  color: #ff4242;
+}

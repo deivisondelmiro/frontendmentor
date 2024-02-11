@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: $sixth-color;
+  position: relative;
+  &::after {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    content: "";
+    width: 700px;
+    max-width: 1440px;
+    height: 350px;
+    border-bottom-left-radius: 50px;
+    background: $fifth-color;
+    @include device(mobile) {
+      width: 250px;
+      height: 420px;
+    }
+  }
+  @include font($font-1, 1.125, 400);
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  max-width: 1024px;
+}

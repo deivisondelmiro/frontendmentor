@@ -1,0 +1,32 @@
+$first-color: hsl(0, 100%, 68%);
+$first-color-hover: hsl(0, 100%, 63%);
+$second-color: hsl(230, 29%, 20%);
+$third-color: hsl(230, 11%, 40%);
+$fourth-color: hsl(231, 7%, 65%);
+$fifth-color: hsl(207, 33%, 95%);
+$sixth-color: hsl(0, 0%, 100%);
+
+$font-1: 'Barlow Condensed', sans-serif;
+$font-2: 'Barlow', sans-serif;
+
+$mobile-device: 1100px;
+
+@mixin font($font, $size, $weight) {
+  font-family: $font;
+  font-size: $size + em;
+  font-weight: $weight;
+}
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin device($type) {
+  @if $type == mobile {
+    @media screen and (max-width: $mobile-device) {
+      @content;
+    }
+  }
+}

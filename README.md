@@ -53,6 +53,8 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 
   [Pricing Component](https://deivisondelmiro.github.io/frontendmentor/junior/03-pricing-component-with-toggle)
 
+  [Project Tracking](https://deivisondelmiro.github.io/frontendmentor/junior/04-project-tracking-intro)
+
 ## Contato
 
 E-mail: deivisondelmirodasilva@gmail.com
