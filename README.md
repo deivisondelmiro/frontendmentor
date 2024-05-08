@@ -55,6 +55,8 @@ Desenvolvemento final de aplicações a partir de templates/design disponibiliza
 
   [Project Tracking](https://deivisondelmiro.github.io/frontendmentor/junior/04-project-tracking-intro)
 
+  [Testimonials Grid](https://deivisondelmiro.github.io/frontendmentor/junior/05-testimonials-grid-section)
+
 ## Contato
 
 E-mail: deivisondelmirodasilva@gmail.com
