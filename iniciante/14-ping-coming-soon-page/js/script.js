@@ -5,7 +5,6 @@ form.addEventListener('change', validityInput)
 button.addEventListener('click', validityInputClick)
 
 function validityInput(event) {
-  console.log(event)
   const target = event.target
 
   if(!target.checkValidity()) {
@@ -21,6 +20,7 @@ function validityInputClick(event) {
   const input = form.elements[0]
   event.preventDefault()
 
+  validityInput();
   if(input.value.length === 0) {
     input.classList.add('errorActive')
     spanError.classList.add('active')
