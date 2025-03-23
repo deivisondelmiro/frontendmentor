@@ -1,6 +1,6 @@
 <h1 align="center">Frontend Mentor</h1>
 
-Desenvolvemento final de aplicações a partir de templates/design disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/), que tem o intuito da criação e aprendizado sobre esses designs a quem se interessar. Desenvolvi alguns para o aprimoramento de meus conhecimentos em tecnologias do Front End.
+Desenvolvemento final de aplicações a partir de templates/designs disponibilizados pela plataforma [Frontend Mentor](https://www.frontendmentor.io/), para aprendizado/treino de criação do visual e manipulação de apis de páginas web/front end.
 
 ## Screenshots
 
