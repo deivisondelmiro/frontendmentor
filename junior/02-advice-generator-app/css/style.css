@@ -21,9 +21,9 @@ a {
 }
 
 body {
+  height: 100vh;
   background-color: var(--backgroundColor);
   font-family: 'Manrope', sans-serif;
-  height: 100vh;
 }
 
 .container {
@@ -95,6 +95,7 @@ body {
   letter-spacing: .5px;
   color: var(--textColor);
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .footer a {
@@ -119,5 +120,15 @@ body {
   }
   .footer {
     text-align: center;
+  }
+}
+
+@media (max-height: 400px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    margin-top: 20px;
   }
 }
