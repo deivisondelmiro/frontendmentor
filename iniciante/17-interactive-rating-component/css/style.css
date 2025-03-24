@@ -21,6 +21,10 @@ a {
   --very-dark-blue: hsl(216, 12%, 8%);
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -170,5 +174,14 @@ main {
   #btnSubmit {
     padding: 15px;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-height: 510px) {
+  body {
+    height: 100%;
+  }
+  .container {
+    margin-top: 20px;
   }
 }

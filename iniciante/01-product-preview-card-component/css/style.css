@@ -17,11 +17,8 @@
     --ancora-color-hover: hsl(212, 21%, 14%);
 }
 
-html, body {
-    height: 100vh;
-}
-
 body {
+    height: 100vh;
     display: flex;
     align-items: center;
     background: var(--background-body-color);
@@ -139,16 +136,7 @@ footer a:hover {
     color: var(--ancora-color-hover);
 }
 
-@media (max-width: 900px) {
-    body {
-        padding-top: 50px;
-    }
-}
-
 @media (max-width: 600px) {
-    html {
-        height: 0px;
-    }
     body {
         justify-content: center;
         margin-top: 20px;
@@ -194,12 +182,16 @@ footer a:hover {
         margin: 0;
     }
 
-    footer {
-        position: absolute;
-        bottom: -50px;
-    }
-
     footer p {
         margin-bottom: 5px;
     }
 }
+
+@media (max-height: 630px) {
+    body {
+      height: 100%;
+    }
+    .container {
+      margin-top: 20px;
+    }
+  }

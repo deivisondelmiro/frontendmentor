@@ -137,3 +137,13 @@ footer a {
 footer a:hover {
   color: #c5f82a;
 }
+
+@media (max-height: 630px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    margin-top: 20px;
+  }
+}
