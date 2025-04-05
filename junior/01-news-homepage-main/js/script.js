@@ -9,8 +9,12 @@ function showMenu() {
 
     if (buttonActive) {
       imgMenu.setAttribute('src', './assets/images/icon-menu-close.svg')
+      imgMenu.style.position = 'fixed'
+      imgMenu.style.right = '20px'
+      imgMenu.style.top = '38px'
     } else {
       imgMenu.setAttribute('src', './assets/images/icon-menu.svg')
+      imgMenu.style.position = 'initial'
     }
   }
   activeButtonMenu()
