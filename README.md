@@ -45,6 +45,8 @@ Desenvolvemento final de aplicações a partir de templates/designs disponibiliz
 
   [Social Links](https://deivisondelmiro.github.io/frontendmentor/iniciante/19-social-links-profile-main)
 
+  [Social Proof](https://deivisondelmiro.github.io/frontendmentor/iniciante/20-social-proof-section)
+
   > Junior
 
   [News Homepage](https://deivisondelmiro.github.io/frontendmentor/junior/01-news-homepage-main)
